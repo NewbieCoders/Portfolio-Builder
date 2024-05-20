@@ -25,29 +25,23 @@ To get started with the Portfolio Builder project, follow these steps:
 
 1.  **Clone the repository:**
 
-    bash
-
-    Copy code
-
-    `git clone https://github.com/your-username/portfolio-builder.git
+   ```bash
+    git clone https://github.com/your-username/portfolio-builder.git
     cd portfolio-builder
-    cd client`
+    cd client 
+    ```
 
 2.  **Install dependencies:**
 
-bash
+    ```bash
+    npm install
+    ```
 
-Copy code
 
-`npm install`
+3.  **Run the application:**
 
-1.  **Run the application:**
-
-    bash
-
-    Copy code
-
-    `npm run dev`
+    ```bash
+    npm run dev```
 
     This will start the development server and you can view the application by navigating to `http://localhost:5173` in your browser.
 
@@ -55,7 +49,7 @@ Copy code
 
 The folder structure of the project is organized to maintain clarity and separation of concerns(this is a example of a simple file structure, you can modify it according to your needs):
 
-arduino
+```arduino
 
 Copy code
 
@@ -80,7 +74,8 @@ Copy code
 ├── tailwind.config.js
 ├── postcss.config.js
 ├── package.json
-└── README.md`
+└── README.md 
+```
 
 ### Production Grade File Structure
 
