@@ -25,10 +25,11 @@ To get started with the Portfolio Builder project, follow these steps:
 
 1.  **Clone the repository:**
 
-   ```bash
+   ```
     git clone https://github.com/your-username/portfolio-builder.git
     cd portfolio-builder
     cd client 
+    
     ```
 
 2.  **Install dependencies:**
@@ -49,9 +50,7 @@ To get started with the Portfolio Builder project, follow these steps:
 
 The folder structure of the project is organized to maintain clarity and separation of concerns(this is a example of a simple file structure, you can modify it according to your needs):
 
-```arduino
-
-Copy code
+```
 
 `portfolio-builder/
 ├── public/
