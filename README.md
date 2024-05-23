@@ -29,20 +29,25 @@ To get started with the Portfolio Builder project, follow these steps:
     git clone https://github.com/your-username/portfolio-builder.git
     cd portfolio-builder
     cd client 
+<<<<<<< HEAD
     
     ```
+=======
+   ```
+>>>>>>> refs/remotes/origin/main
 
 2.  **Install dependencies:**
 
     ```bash
-    npm install
+       npm install
     ```
 
 
 3.  **Run the application:**
 
     ```bash
-    npm run dev```
+       npm run dev
+    ```
 
     This will start the development server and you can view the application by navigating to `http://localhost:5173` in your browser.
 
@@ -50,6 +55,7 @@ To get started with the Portfolio Builder project, follow these steps:
 
 The folder structure of the project is organized to maintain clarity and separation of concerns(this is a example of a simple file structure, you can modify it according to your needs):
 
+<<<<<<< HEAD
 ```
 
 `portfolio-builder/
@@ -74,6 +80,32 @@ The folder structure of the project is organized to maintain clarity and separat
 ├── postcss.config.js
 ├── package.json
 └── README.md 
+=======
+```arduino
+
+   portfolio-builder/
+   ├── public/
+   │   └── index.html
+   ├── src/
+   │   ├── components/
+   │   │   ├── Navbar.js
+   │   │   ├── UserForm.js
+   │   │   ├── Portfolio.js
+   │   │   ├── About.js
+   │   │   ├── Projects.js
+   │   │   └── Contact.js
+   │   ├── templates/
+   │   │   ├── Template1.js
+   │   │   ├── Template2.js
+   │   │   └── Template3.js
+   │   ├── App.js
+   │   ├── index.css
+   │   └── index.js
+   ├── tailwind.config.js
+   ├── postcss.config.js
+   ├── package.json
+   └── README.md 
+>>>>>>> refs/remotes/origin/main
 ```
 
 ### Production Grade File Structure
