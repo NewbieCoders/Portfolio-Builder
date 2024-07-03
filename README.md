@@ -29,12 +29,9 @@ To get started with the Portfolio Builder project, follow these steps:
     git clone https://github.com/your-username/portfolio-builder.git
     cd portfolio-builder
     cd client 
-<<<<<<< HEAD
-    
-    ```
-=======
+
    ```
->>>>>>> refs/remotes/origin/main
+
 
 2.  **Install dependencies:**
 
@@ -49,13 +46,12 @@ To get started with the Portfolio Builder project, follow these steps:
        npm run dev
     ```
 
-    This will start the development server and you can view the application by navigating to `http://localhost:5173` in your browser.
+    This will start the development server and you can view the application by navigating to `http://localhost:3000` in your browser.
 
 ### Folder Structure
 
 The folder structure of the project is organized to maintain clarity and separation of concerns(this is a example of a simple file structure, you can modify it according to your needs):
 
-<<<<<<< HEAD
 ```
 
 `portfolio-builder/
