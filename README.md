@@ -108,10 +108,9 @@ The folder structure of the project is organized to maintain clarity and separat
 
 For a more production-ready file structure, consider the following organization:
 
-arduino
 
 Copy code
-
+```
 `portfolio-builder/
 ├── public/
 │   └── index.html
@@ -141,7 +140,7 @@ Copy code
 ├── postcss.config.js
 ├── package.json
 └── README.md`
-
+```
 ### Templates
 
 The `templates` folder contains different portfolio templates that users can choose from. Each template is a React component that defines the layout and style of the portfolio.
